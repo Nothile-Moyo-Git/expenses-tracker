@@ -1,13 +1,91 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html {
+  font-family: 'Noto Sans JP', sans-serif;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+body {
+  margin: 0;
+  background-color: #3f3f3f;
+}
+
+html a{
+  text-decoration: none;
+}
+
+html .reactButton{
+
+  padding: 5px 0px;
+  font-size: 20px;
+  background-color:white;
+  color: black;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 8%;
+  text-align: center;
+  min-width: 105px;
+  text-decoration: none;
+  border-radius: 3px;
+  transition: 0.25s all ease-in-out;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+html .reactButton:hover{
+  background-color: #6495ED;
+  color: white;
+}
+
+html .show-time{
+  display: none;
+  text-align: center;
+  font-size: 20px;
+}
+
+html .show-text{
+  text-align: center;
+  font-size: 20px;
+}
+
+html .show-count{
+  text-align: center;
+  font-size: 20px;
+  color: white;
+}
+
+html p.position-copy-text{
+  text-align: center;
+  color: white;
+}
+
+html h2{
+  color: white;
+  font-size: 20px;
+}
+
+html h2.page-title{
+  max-width: 50rem;
+  margin: auto;
+  text-align: left;
+}
+
+html span.welcome-text{
+  text-align: center;
+  display: block;
+  margin-top: 1rem;
+}
+
+/* Desktop */
+
+@media only screen and (max-width: 768px){
+  html h2{
+    font-size: 16px;
+  }
 }

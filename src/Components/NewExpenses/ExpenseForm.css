@@ -1,0 +1,97 @@
+  html .new-expense__controls form{
+    width: 100%;
+  }
+
+  html .width-100{
+    width: 100%;
+  }
+
+  html .margin-left-10{
+    margin-left: 10%;
+  }
+
+  html div.new-expense__control{
+    display:inline-block;
+    padding-top: 1rem;
+    width: 50%;
+  }
+
+@media only screen and (min-width: 768px){
+
+  html .new-expense__control__padding{
+    padding-left: 10%;
+  }
+
+  .new-expense__control label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    display: block;
+    font-size: 20px;
+    margin-left: 1rem;
+  }
+  
+  .new-expense__control input {
+    font: inherit;
+    padding: 0.5rem;
+    border-radius: 6px;
+    border: 1px solid black;
+    max-width: 100%;
+    margin-left: 1rem;
+    width: 95%;
+  }
+
+  .new-expense__controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 0rem;
+    text-align: left;
+    justify-content: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+}
+
+@media only screen and (max-width: 767px){
+
+  html div.new-expense__control {
+    display: inline-block;
+    padding-top: 1rem;
+    width: 100%;
+  }
+
+  .new-expense__control label {
+    font-weight: bold;
+    margin-bottom: 0rem;
+    display: block;
+    font-size: 20px;
+    margin-left: 0rem;
+  }
+  
+  .new-expense__control input {
+    font: inherit;
+    padding: 0.5rem;
+    border-radius: 6px;
+    border: 1px solid black;
+    width: 100%;
+    max-width: 100%;
+    margin-left: 0rem;
+  }
+
+  .new-expense__controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 0rem;
+    text-align: left;
+    justify-content: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+}
+
+  .new-expense__actions {
+    text-align: right;
+  }
