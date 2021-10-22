@@ -49,7 +49,7 @@ function App() {
 
       <h2 className="page-title">
           <span className="welcome-text">
-            Welcome, this is my expenses tracker :).!
+            Welcome, this is my expenses tracker :).
           </span>
       </h2>
       {/* Render our new expense and expenses component we obtain using states from our child components */}
