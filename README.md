@@ -9,3 +9,4 @@ This project covered the basics of creating a React App without re-rendering the
 You can see a basic screenshot here: 
 ![image](https://user-images.githubusercontent.com/15236959/138609330-30fc98ab-5c4e-4dfe-9c14-9e4a4ae6af07.png)
 
+You can view the code in the master branch
