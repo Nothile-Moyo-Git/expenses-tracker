@@ -1,4 +1,4 @@
-# Expenses Tracker
+# React Expenses Tracker
 
 As I'm currently learning React, this project was an introduction into it.
 
