@@ -4,7 +4,9 @@ As I'm currently learning React, this project was an introduction into it.
 
 I learned about components, states, React hooks, two way binding as well as ES6.
 
-This project covered the basics of creating a React App without re-rendering the DOM as well as an introduction to Node.js and React deployments
+This project covered the basics of creating a React App without re-rendering the DOM as well as an introduction to deploying React Apps on GitHub pages and improving my working understanding of Git.
+
+This was inspired by GraphQL.
 
 You can view the deployed version here: https://nothile-moyo-git.github.io/expenses-tracker/
 
